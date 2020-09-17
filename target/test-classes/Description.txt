@@ -1,0 +1,39 @@
+Description About Automation Test Cases:
+- All test cases regarding the scope of create, read, update, delete and check functionality have been tested.
+- I will share information about test cases using tags below.
+
+1-) @computer_data--> This tag is related to the feature and can be used to run all scenarios.
+2-) @title_check --> The test for this tag is testing the title on the home page. It'll PASS
+3-) @create --> This test is prepared for create operation and verify. At the end of the message,
+it is seen that create was made, but the test case fails because the system is not working properly. It'll FAIL
+4-) @read --> This tag is used to check the accuracy of a computer name with a working test case. It'll PASS
+5-) @update -->This test was used to update a data of a computer name generated case. The test will fail because the system is not working properly.
+6-) @delete --> The deletion of a data created with the test case working with this tag was tested. However, it will be a perpetrator because the system is not working properly.
+7-) @duplicate -->With this test case, it was tried to create the same data twice. The system should not allow this.It'll FAIL.
+8-9-10) @negative_ddt --> DDT system was applied by using this test case and Scenario outline. User computer name will be blank, an error message will appear.
+Then it will enter the dates in invalid formats and see the other error message.This test case is also executed as 3 different test cases. PASS
+11-12-) @cancel --> The cancel functionality was tested with this tag, which contains two different test cases. PASS
+13-) @asc_desc --> All links are clicked in the test case related to this tag. The aim was to prove that the link using the click is listed as ascending.PASS
+
+
+
+
+BONUS QUESTION ANSWER
+
+Full Statement Coverage: 1 case
+1) 0A - 1C - 2E - 3F - G -H -4I - 5K
+
+Branch Coverage: 3 cases
+1) 0A - 1C - 2E - 3F - G -H -4I - 5K
+2) 0A - 1C - 2D-G-H-4J
+3) 0A - 1B-H- 4J
+
+Path Coverage: 6 cases
+1) 0A - 1C - 2E - 3F - G -H -4I - 5K
+2) 0A - 1C - 2E - 3F - G -H -4J
+3) 0A - 1C - 2D-G-H-4J
+4) 0A - 1C - 2D-G-H-4I- 5K
+5) 0A - 1B-H- 4J
+6) 0A - 1B-H- 4I- 5K
+
+*I will also share my answer in as a table.

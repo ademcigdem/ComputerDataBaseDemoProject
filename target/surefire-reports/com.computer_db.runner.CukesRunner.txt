@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.computer_db.runner.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 152.546 s <<< FAILURE! - in com.computer_db.runner.CukesRunner
+User should be able to successfully create computer(Computer Data Base Create, Update, Read and Delete Operations)  Time elapsed: 19.028 s  <<< FAILURE!
+java.lang.AssertionError: ------Nothing to display-----
+
+User should be able to check a computer name details in the result table(Computer Data Base Create, Update, Read and Delete Operations)  Time elapsed: 17.582 s  <<< FAILURE!
+java.lang.AssertionError: ------Nothing to display-----
+
+User should be able to update a computer name(Computer Data Base Create, Update, Read and Delete Operations)  Time elapsed: 17.925 s  <<< FAILURE!
+java.lang.AssertionError: ----Nothing to display-----
+
+User should be able to delete a computer data(Computer Data Base Create, Update, Read and Delete Operations)  Time elapsed: 7.706 s  <<< FAILURE!
+java.lang.AssertionError
+
+User not should be able to create same computer as a duplicate(Computer Data Base Create, Update, Read and Delete Operations)  Time elapsed: 19.161 s  <<< FAILURE!
+java.lang.AssertionError: ----Nothing to display-----
+
+User not able to create computer with invalid data invalid computer name(Computer Data Base Create, Update, Read and Delete Operations)  Time elapsed: 17.857 s  <<< FAILURE!
+java.lang.AssertionError: Failed to refine type
+
